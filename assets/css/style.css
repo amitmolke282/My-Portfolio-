@@ -44,20 +44,22 @@ h6 {
   bottom: 15px;
   z-index: 996;
   background: #149ddd;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
+  width: 41px;
+  height: 41px;
+  border-radius: 51px;
+  transition: all 0.3s;
 }
 
 .back-to-top i {
-  font-size: 28px;
+  font-size: 25px;
+  
   color: #fff;
   line-height: 0;
 }
 
 .back-to-top:hover {
   background: #2eafec;
+  padding:5px;
   color: #fff;
 }
 
@@ -75,9 +77,9 @@ h6 {
   left: 0;
   bottom: 0;
   width: 300px;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.4s;
   z-index: 9997;
-  transition: all 0.5s;
+  transition: all 0.4s;
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
@@ -92,10 +94,10 @@ h6 {
 }
 
 #header .profile h1 {
-  font-size: 24px;
+  font-size: 25px;
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 500;
   -moz-text-align-last: center;
   text-align-last: center;
   font-family: "Poppins", sans-serif;
@@ -114,7 +116,7 @@ h6 {
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 5px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -132,7 +134,7 @@ h6 {
   margin-left: 300px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1200px) {
   #header {
     left: -300px;
   }
@@ -248,7 +250,7 @@ h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 310px;
 }
 
 #hero h1 {
@@ -273,7 +275,7 @@ h6 {
   border-bottom: 3px solid #149ddd;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1050px) {
   #hero {
     background-attachment: fixed;
   }
@@ -826,8 +828,8 @@ h1 {
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
+  width: 91px;
+  border-radius: 49%;
   margin: 0 auto;
 }
 
